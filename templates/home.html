@@ -1,0 +1,10 @@
+<h1>WORD COUNTER:-</h1>
+<link rel="stylesheet" href="/static/style.css">
+<body>
+<form action= "{% url  'count' %}">
+    <textarea cols="50" rows="10" name="fulltext"></textarea>
+    <br/>
+<input type="submit" value="COUNT WORDS" />
+</form>
+</body>
+</html>
